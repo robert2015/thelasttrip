@@ -14,3 +14,47 @@
 .items-nav:hover{
     color: #1E68F3!important;
 }
+
+.alineaciones{
+    
+    justify-content: flex-end;
+    margin-right: 2em;
+}
+
+.texto-head{
+    font-size: 18px;
+    font-family: Montserrat-bold;
+    font-weight: bold;
+}
+
+.texto{
+    font-family: Under-Station;
+    color: #193467;
+    font-size: 25px;
+}
+.align{
+    justify-content: left;
+    align-items: center;
+    display: grid;
+}
+.alinea{
+    text-align: right;
+}
+@media only screen and (max-width : 991px) {
+    .alineaciones{
+     
+        justify-content: left;
+    }
+    img{
+        width: 30%;
+    }
+    .alinea{
+        text-align: center;
+    }
+    .texto{
+        font-size: 40px;
+    }
+    .align{
+        justify-content: center;
+    }
+}

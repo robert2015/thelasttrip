@@ -3,26 +3,34 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary" style="box-shadow: 2px 2px 7px #ccc">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <div class="row">
+        <div class="col-lg-4 alinea">
+          <a class="navbar-brand" href="#" style="text-align: center;"><img width="50%" src="../../assets/img/100ppi/logo.png" /></a> 
+        </div>
+        <div class="col-lg-8 align">
+          <h2 class="texto">The last Trip</h2>
+        </div>
+      </div>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse alineaciones" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Destinos</a>
+            <a class="nav-link items-nav" aria-current="page" href="#"><span class="texto-head">Destinos</span> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link items-nav" href="#"><span class="texto-head">Servicios</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a  class="nav-link" href="#">
-              Contactos
+          <li class="nav-item">
+            <a  class="nav-link items-nav" href="#">
+              <span class="texto-head">Contactos</span>
             </a>
             
           </li>
           <li class="nav-item">
-            <a class="nav-link items-nav" href="#" (click)="logout()">Salir</a>
+            <a class="nav-link items-nav" href="#" (click)="logout()"> <span class="texto-head">Salir</span></a>
           </li>
         </ul>
        
